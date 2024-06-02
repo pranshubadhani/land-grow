@@ -4,6 +4,7 @@ import Contact from "./pages/Contact"
 import HomePage from "./pages/Home"
 import Team from "./pages/Team"
 import { BrowserRouter, Routes, Route } from "react-router-dom"
+import PropertyDetails from "./pages/PropertyDetails"
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/properties" element={<Properties />} />
           <Route path="/team" element={<Team />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/property/:id" element={<PropertyDetails />} />
         </Routes>
       </BrowserRouter>
     </>
