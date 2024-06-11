@@ -1,8 +1,9 @@
 import React from 'react';
+import img from '../assets/images/realestate-bg.jpg';
 
 const HomePage = () => {
     return (
-        <div className="bg-[url('./images/realestate-bg.jpg')] bg-cover h-screen">
+        <div className="bg-cover h-screen" style={{ backgroundImage: `url(${img})` }}>
 
             {/* Hero Section */}
             <header className="flex flex-col items-center justify-center h-full text-center px-4">

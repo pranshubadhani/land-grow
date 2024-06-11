@@ -100,7 +100,7 @@ const PropertyDetails = () => {
               style={{ border: 0 }}
               loading="lazy"
               allowFullScreen
-              src={`https://www.google.com/maps/embed/v1/place?key=AIzaSyDwPJF76KZVJ1qShES9F-Fa1x5FHZkV1y4&q=Eiffel+Tower,Paris+France`}>
+              src={`https://www.google.com/maps/embed/v1/place?key=API_KEY=${property.location.latitude},${property.location.longitude}`}>
             </iframe>
           </div>
         )}
