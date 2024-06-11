@@ -8,7 +8,7 @@ const HomePage = () => {
             <header className="flex flex-col items-center justify-center h-full text-center px-4">
                 <h1 className="text-7xl font-bold mb-4">Invest in the Future of Land</h1>
                 <p className="text-2xl mb-8 font-semibold">Discover best land investment opportunities across the country.</p>
-                <a href="#overview" className="bg-regal-blue text-white px-6 py-3 rounded-full hover:bg-blue-800">Get Started</a>
+                <a href="/properties" className="bg-regal-blue text-white px-6 py-3 rounded-full hover:bg-blue-800">Get Started</a>
             </header>
 
             {/* Overview Section */}
